@@ -1,0 +1,24 @@
+{
+  "name": "ramukaka",
+  "version": "0.0.1",
+  "description": "Ramu kaka on IRC",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnurag/ramukaka.git"
+  },
+  "author": "Anurag <gnurag@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gnurag/ramukaka/issues"
+  },
+  "homepage": "https://github.com/gnurag/ramukaka",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "irc": "^0.5.2"
+  }
+}
